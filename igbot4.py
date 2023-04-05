@@ -34,7 +34,7 @@ time.sleep(2)
 # pyautogui.keyUp('command')
 	# pyautogui.hotkey('space')
 
-pyautogui.typewrite('pros_tehonzaa')
+pyautogui.typewrite('username')
 
 
 # Find password field and set password as input
@@ -42,7 +42,7 @@ pyautogui.typewrite('pros_tehonzaa')
 for i in range(1):
     pyautogui.press('tab')
 
-pyautogui.typewrite("--hardtocrack@--nta")
+pyautogui.typewrite("password")
 
 
 # pyautogui.keyDown('command')
