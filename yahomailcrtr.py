@@ -107,7 +107,7 @@ pyautogui.typewrite(password)
 
 # Mobile phone number
 driver.find_element(By.XPATH, "//html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[1]").click()
-pyautogui.typewrite("+420606328722")
+pyautogui.typewrite("phone number")
 
 # Register button
 driver.find_element(By.XPATH, "//html/body/div/div/div[2]/div/main/div/div/div/form/div[4]").click()
